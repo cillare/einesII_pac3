@@ -7,13 +7,15 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         'primary': '#106048',
+        'grey': 'rgba(255, 255, 255, 0.5)',
       },
       fontFamily: {
         'primary': ["Hanken Grotesk", "sans-serif"],
         'pop': ["Cy Grotesk", "serif"],
       },
       screens: {
-        '991': {'max': '991px'},
+        's991': {'max': '991px'},
+        's990': '990px',
       },
       fontSize: {
         'h1': 'calc(1.375rem + 1.5vw)',

@@ -1,3 +1,26 @@
-<footer class="uoc-footer">
-    &copy; Universitat Oberta de Catalunya
+<footer class="py-5 border-t border-primary mt-24">
+
+    <div class="menu-content">
+        <nav class="flex items-center justify-between 991:flex-col">
+            <div class="w-1/5 lg:w-1/6">
+                <include src="./views/logo.html"></include>
+            </div>
+
+            <div class="flex 991:flex-col 991:text-center">
+                <a class="links 991:py-1.5" href="./index.html">Home</a>
+                <a class="links 991:py-1.5" href="./index.html">Equip</a>
+                <a class="links 991:py-1.5" href="./bio.html">About</a>
+                <a class="links 991:py-1.5" href="#">Contacta</a>
+            </div>
+
+            <div class="w-1/5 lg:w-1/6 text-right 991:text-center 991:w-full">
+                <include src="./views/social.html"></include>
+            </div>
+        </nav>
+
+        <div class="text-black text-center mt-6 text-xs">
+            &copy; Universitat Oberta de Catalunya (2023)
+        </div>
+    </div>
+
 </footer>

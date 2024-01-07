@@ -1,0 +1,13 @@
+@layer components {
+  .links {
+    @apply px-4 hover:text-black;
+  }
+
+  .menu-content {
+    @apply font-primary text-primary container mx-auto  px-3;
+  }
+
+  .main-content {
+    @apply font-primary container mx-auto px-3;
+  }
+}

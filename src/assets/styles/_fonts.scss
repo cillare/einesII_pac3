@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Cy Grotesk';
+  src: url('../fonts/CyGrotesk-GrandDark.eot');
+  src: url('../fonts/CyGrotesk-GrandDark.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CyGrotesk-GrandDark.woff2') format('woff2'),
+      url('../fonts/CyGrotesk-GrandDark.woff') format('woff'),
+      url('../fonts/CyGrotesk-GrandDark.ttf') format('truetype'),
+      url('../fonts/CyGrotesk-GrandDark.svg#CyGrotesk-GrandDark') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('../fonts/HankenGrotesk-Regular.eot');
+  src: url('../fonts/HankenGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/HankenGrotesk-Regular.woff2') format('woff2'),
+      url('../fonts/HankenGrotesk-Regular.woff') format('woff'),
+      url('../fonts/HankenGrotesk-Regular.ttf') format('truetype'),
+      url('../fonts/HankenGrotesk-Regular.svg#HankenGrotesk-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
